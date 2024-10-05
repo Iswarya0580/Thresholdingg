@@ -46,7 +46,7 @@ plt.axis('off')
 plt.show()
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/a0c3dcd3-190d-4e0a-9ab6-d34342a947ea)
+![image](https://github.com/user-attachments/assets/da841c2f-e382-4226-8e5f-f3820c56c020)
 
 ### Convert the image to grayscale
 ```
@@ -57,7 +57,7 @@ plt.xticks([]), plt.yticks([])
 plt.show()
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/f8aec7dd-8387-4d60-98f1-b61950dea558)
+![image](https://github.com/user-attachments/assets/dd7c1349-c4b1-46af-9457-4eb97e23a8cd)
 
 ### Use Global thresholding to segment the image
 ```
@@ -68,7 +68,7 @@ plt.xticks([]), plt.yticks([])
 plt.show()
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/6a149159-779c-4ba7-873e-ade027cfbc33)
+![image](https://github.com/user-attachments/assets/b631e137-5cb9-4e08-81ef-e49e5b3b15ff)
 
 ### Use Adaptive thresholding to segment the image
 ```
@@ -78,9 +78,8 @@ plt.title('Adaptive Gaussian Thresholding')
 plt.xticks([]), plt.yticks([])
 plt.show()
 ```
-
 ### Output:
-![image](https://github.com/user-attachments/assets/26644476-c011-44bd-8fdb-715052d2069e)
+![image](https://github.com/user-attachments/assets/4b113d07-7993-4ee6-9362-c268df9712f7)
 
 ### Use Otsu's method to segment the image 
 ```
@@ -91,7 +90,7 @@ plt.xticks([]), plt.yticks([])
 plt.show()
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/9c61c5e2-3c5d-4cca-9c7f-6b16e6db26f0)
+![image](https://github.com/user-attachments/assets/294ffc89-9bfd-4acf-a816-7d2ad8021a58)
 
 ## Result
 Thus the images are segmented using global thresholding, adaptive thresholding and optimum global thresholding using python and OpenCV.
